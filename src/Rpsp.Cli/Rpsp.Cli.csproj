@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rpsp.Core\Rpsp.Core.csproj" />
+    <ProjectReference Include="..\Rpsp.Evaluation\Rpsp.Evaluation.csproj" />
+  </ItemGroup>
+</Project>

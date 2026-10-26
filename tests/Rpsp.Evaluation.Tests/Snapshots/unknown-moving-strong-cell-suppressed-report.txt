@@ -1,0 +1,32 @@
+RPSP detector report
+Detector: UnknownStrongCellDetector
+Decision: Suppressed
+Risk score: 0.000
+Severity: None
+Warning level: None
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Unknown strong cell analysis was suppressed: suppressed:benign-motion-state.
+
+Evidence:
+- ObservationCount: Observation count: 5.
+- WindowDuration: Window duration seconds: 120.0.
+- MotionStateSummary: Stationary-like: 0; benign mobility: 5; unknown: 0.
+- TrustedBaselineCellCount: Trusted baseline cell count: 2.
+- ObservedCellCount: Observed cell count: 5.
+- UnknownCellCount: Unknown cell count: 3.
+- UnknownStrongCellCount: Unknown strong cell count: 3.
+- UnknownStrongServingAppearances: Unknown strong serving appearances: 3.
+- UnknownStrongNeighborAppearances: Unknown strong neighbor appearances: 0.
+- StrongestObservedRsrp: Strongest observed RSRP dBm: -69.0.
+- SignalThresholdUsed: Strong RSRP threshold dBm: -80.0.
+- UnknownStrongAppearancesPerMinute: Unknown strong appearances per minute: 1.50.
+- BaselineSufficiency: Trusted baseline sufficient: True.
+- RepeatedUnknownStrongServingCellObserved: Repeated unknown strong serving cell observed: True.
+- SuppressionReason: Suppression reason: suppressed:benign-motion-state.
+
+Limitations:
+- Bounded claim: This report is not proof of attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report does not perform attribution.
+- Baseline dependency: This result depends on local trusted baseline quality.

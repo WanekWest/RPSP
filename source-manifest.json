@@ -1,0 +1,961 @@
+{
+  "snapshot_date": "2026-10-26",
+  "description": "Unmodified computational files from the RPSP isolated reproduction snapshot; curated publication, no private Git history.",
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "sha256": "701db1023244a50f5c72ff6c46a0c889f7c24dd3096db5ddccf78085ea2f238b",
+      "bytes": 562
+    },
+    {
+      "path": "RPSP.sln",
+      "sha256": "f8e9dd0fc225e742373a907f1b6b60c6ff734e0bf42a0e84f003d0348b7961c4",
+      "bytes": 14541
+    },
+    {
+      "path": "docs/evaluation/computers-security-v10-analysis-protocol.md",
+      "sha256": "13eb9670b22de79a33b31dde58fcaebb08f3ae65d35021ec83a876b8ce052a8b",
+      "bytes": 5258
+    },
+    {
+      "path": "docs/evaluation/computers-security-v10-experiment-manifest.json",
+      "sha256": "42acb2ac55bdc4b1e17598800a182351c3d56d8080ac58a43f69bb0ece7e93f1",
+      "bytes": 574
+    },
+    {
+      "path": "global.json",
+      "sha256": "b54f95ccc7a0a2199f7f2ce71cef88c853e633b5f6d0c492095cd16bbf4d8506",
+      "bytes": 109
+    },
+    {
+      "path": "src/Rpsp.Android/AndroidObservationAdapter.cs",
+      "sha256": "ac2ed95b1df97eaf6a35c02681b5c387b121cd7d3055b0a9909d11926443d76e",
+      "bytes": 6919
+    },
+    {
+      "path": "src/Rpsp.Android/Rpsp.Android.csproj",
+      "sha256": "f28d0993c88bbc4dfd6388c515334361c924779a0e3dedfe37c59c03b8a28b98",
+      "bytes": 139
+    },
+    {
+      "path": "src/Rpsp.Android/packages.lock.json",
+      "sha256": "f7180a10222618c754cecb6ebedfb7d85439943c76426c4d533018ef01223ba3",
+      "bytes": 130
+    },
+    {
+      "path": "src/Rpsp.Cli/Program.cs",
+      "sha256": "060e103142ddee485c528638090c6f4aaf21059e8f5f39f13330a8a11fd3728b",
+      "bytes": 173
+    },
+    {
+      "path": "src/Rpsp.Cli/Properties/AssemblyInfo.cs",
+      "sha256": "2c4c1fd8e9579193bed4b52b01f877b254339986a2052af759a5a55a73ef8464",
+      "bytes": 89
+    },
+    {
+      "path": "src/Rpsp.Cli/ReplayCli.cs",
+      "sha256": "ce8b8d57729a0363e60fd830938266433c7a3f38155e7d927aeaeacced1a69b8",
+      "bytes": 13565
+    },
+    {
+      "path": "src/Rpsp.Cli/Rpsp.Cli.csproj",
+      "sha256": "67e4309f450f45b6719ca846665b54e51f88d5f4d91221d9cb4d1e17f0cda020",
+      "bytes": 287
+    },
+    {
+      "path": "src/Rpsp.Cli/packages.lock.json",
+      "sha256": "90225198ff2f2007b7164e3bacb0549cc0f1c960c15aba920f614b389ad7c7ec",
+      "bytes": 270
+    },
+    {
+      "path": "src/Rpsp.Core/Abstractions/IAnomalyScorer.cs",
+      "sha256": "ab86ad4d2fc36b3dfd7756bd5ae369584512c7764746667cd5f901598b42a71e",
+      "bytes": 308
+    },
+    {
+      "path": "src/Rpsp.Core/Abstractions/IBaselineStore.cs",
+      "sha256": "18e6495536757591c6de9be5b71b7fc52fd836ae7fe4774aaf7fccd960896eb3",
+      "bytes": 305
+    },
+    {
+      "path": "src/Rpsp.Core/Abstractions/IObservationSource.cs",
+      "sha256": "681bfe46290c66258d12ff8e847f2fa8f21841a209b869211349244f59198eca",
+      "bytes": 206
+    },
+    {
+      "path": "src/Rpsp.Core/Abstractions/IPrivacyTransformer.cs",
+      "sha256": "33a39cf58fca0c097ce5dad45f94075a5a60a0aa6899da526543ead319e991cb",
+      "bytes": 249
+    },
+    {
+      "path": "src/Rpsp.Core/Abstractions/ITraceReplaySource.cs",
+      "sha256": "36b674b20d0c82854657b4b97df612d0fb40e5b49291776cebc4e9900874cf6a",
+      "bytes": 205
+    },
+    {
+      "path": "src/Rpsp.Core/Baselines/BaselineProfile.cs",
+      "sha256": "3d647d0f1b721437ceedca656ae59137e4dea45a3a5f61a868c240a5d0de06b8",
+      "bytes": 653
+    },
+    {
+      "path": "src/Rpsp.Core/Baselines/TrustedCellSignature.cs",
+      "sha256": "f0ff921c80647f7aaa5f4db86871c44bda9cae13128888a5935d3488cd120600",
+      "bytes": 400
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/NeighborGraphAnomalyDetector.cs",
+      "sha256": "5871f328b9501cb5f6938b895c1b81f6f4b56ef9e1a9e10893fb57eaaf95d90f",
+      "bytes": 24909
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/NeighborGraphDetectionResult.cs",
+      "sha256": "798e676973a71143a325680fc5321eeee8c60ded951692e3acb9d7f78460e0e1",
+      "bytes": 304
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/NeighborGraphDetectorOptions.cs",
+      "sha256": "5c9656f06afb01b0157815f20026903e4cc41ce4d10055fd76240ef347a43b6f",
+      "bytes": 1516
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/RatDowngradeDetectionResult.cs",
+      "sha256": "2424bc890d69671110d8b68f859abd4a5a9ddbbbc16d537bc5e884c1d607b03d",
+      "bytes": 303
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/RatDowngradeDetectorOptions.cs",
+      "sha256": "99f7aad73821f21d397a357c83fc1167ae8c7ffced6f328a28e6154e62d6cdc6",
+      "bytes": 2052
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/RatDowngradeRiskDetector.cs",
+      "sha256": "458ec2b1ff2afd31929270674dc502b74eadd26b9a69a565ad424880f7bd37ac",
+      "bytes": 22980
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/StationaryHandoverAnomalyDetector.cs",
+      "sha256": "11c5b6defc8837a3709deb6ba5266c72ccdbe6066e7f7d269b85eb76c8a022c7",
+      "bytes": 16405
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/StationaryHandoverDetectionResult.cs",
+      "sha256": "34b26794bba38eab8d960235c8f9b840750c216df196e457166e6862f5afb7a2",
+      "bytes": 309
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/StationaryHandoverDetectorOptions.cs",
+      "sha256": "614f76fcbb38d5497d62f1ef817c0cbbded5c861c2430f3c90213842f26e4138",
+      "bytes": 1285
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/UnknownStrongCellDetectionResult.cs",
+      "sha256": "cbf7fc8d1a8fe378a8fb2f8f5f8e0bede50b95ca433d7c8a7b27977eb7e8937f",
+      "bytes": 308
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/UnknownStrongCellDetector.cs",
+      "sha256": "f2727592547a6ddd0fe28f40631cbfef85c762b67f3ed9f57eece540683ddcd0",
+      "bytes": 23033
+    },
+    {
+      "path": "src/Rpsp.Core/Detectors/UnknownStrongCellDetectorOptions.cs",
+      "sha256": "efe6998e84ce7221bf1bfdb7139c55462a8b0cf3673e547166a58ec8f9c43de4",
+      "bytes": 1596
+    },
+    {
+      "path": "src/Rpsp.Core/Events/AnomalyEvent.cs",
+      "sha256": "63a22c7a28e327c7cddd746e85a26f89c78ccddd29a189d96b2d32d61736c32e",
+      "bytes": 199
+    },
+    {
+      "path": "src/Rpsp.Core/Events/AnomalyType.cs",
+      "sha256": "51b933d99112ca6dd7feb9f5a7eb9fb97b0d0165fbf58cd3aee57160c60cf874",
+      "bytes": 287
+    },
+    {
+      "path": "src/Rpsp.Core/Events/EvidenceBundle.cs",
+      "sha256": "92b463793c2969446950ee8fbeca384dc15d85e36ec19f5e721973cf2485f109",
+      "bytes": 616
+    },
+    {
+      "path": "src/Rpsp.Core/Events/EvidenceItem.cs",
+      "sha256": "0fa9722d8c6c9522fcf2e72899f00fcdd58d08eb10b7f3160f0e37b6a7329466",
+      "bytes": 198
+    },
+    {
+      "path": "src/Rpsp.Core/Events/WarningDecision.cs",
+      "sha256": "1d941a8d023530fc81344dd17439bbb1cc0baff496e622676a0480ea2bd816c8",
+      "bytes": 257
+    },
+    {
+      "path": "src/Rpsp.Core/Events/WarningLevel.cs",
+      "sha256": "ccd49d3d0fc0bd65ed4763df4e58c193ea4fbd2f7019677f4088758525c3b5cd",
+      "bytes": 146
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/CellIdentifier.cs",
+      "sha256": "875bdd4ace322b5ee9ef1bd5ddc21e2e8b0587831c02d2796d1ca0932c98d430",
+      "bytes": 213
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/CellRole.cs",
+      "sha256": "f01b0b29b7b1732ea7f1c5aba3ab983059a7819af59c5c0eff925aa91218b4a3",
+      "bytes": 111
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/CellSnapshot.cs",
+      "sha256": "15431af7b952fb0f131d85c23d113e459afbb7a75b5196bd546ed0d04947fa6d",
+      "bytes": 399
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/DeviceMotionSnapshot.cs",
+      "sha256": "69362dbf15ab3e32331c3b9579e269bfd0c9c5922283be115373918b2fdb56ca",
+      "bytes": 782
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/DeviceMotionState.cs",
+      "sha256": "986055133d2c1d62a03f5475d8e99e53ca513544241aec42338ce4f708319561",
+      "bytes": 157
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/ObservationAvailability.cs",
+      "sha256": "a22e4bff234cfc6aa4d1bec720da1ac00ea82f4faa7ae6603b01dc608665484b",
+      "bytes": 200
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/ObservationSourceKind.cs",
+      "sha256": "adedcf73db180011418a0d9c5b2cbdfdabcceec7caf10ee2dcea2425496b3f1c",
+      "bytes": 175
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/PhysicalChannelSnapshot.cs",
+      "sha256": "c6369fb73bea61afb1a37990f6d525a4e7df15637968cf6d0fb98adaa55158e1",
+      "bytes": 281
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/Plmn.cs",
+      "sha256": "8943d7344a898a285224eb1658370758e0eb91a14517c00f8777df9173fc5354",
+      "bytes": 114
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/RadioAccessTechnology.cs",
+      "sha256": "87667ab3e64822e1af2da1946b26f687d0e3c52e1cf28adbdd6e46a973fa13af",
+      "bytes": 162
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/RadioObservation.cs",
+      "sha256": "57d6b136b802736a85150cee93c014057680111c1b4930b83c1a1c78e29a3579",
+      "bytes": 1210
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/ServiceStateSnapshot.cs",
+      "sha256": "943edc3cc22600566be1e5793136eff6bf21d29e92b31ade227952416edc6a01",
+      "bytes": 294
+    },
+    {
+      "path": "src/Rpsp.Core/Observations/SignalSnapshot.cs",
+      "sha256": "b1482daa7c7c1fe7e56774e3ab8e3e607b4fbbabeff78d09fb2c7342f800ffb9",
+      "bytes": 291
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/DetectorPipelineContributionFactory.cs",
+      "sha256": "f9d68060965c48931aa5af3dd4546d4caa79b1d99ca387c3f1e2a8812caef79c",
+      "bytes": 1910
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/DetectorPipelineRunResult.cs",
+      "sha256": "f9fc2755788ffc58b32738f064f67bdfc72c786c33786e96ed74604221947d85",
+      "bytes": 478
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/IRpspDetectorRunner.cs",
+      "sha256": "ed94507af1e3062a15f5752c0b172228e5a596322cda336ae2c2fefd2f27db93",
+      "bytes": 254
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/RpspDetectionPipeline.cs",
+      "sha256": "dec0f9e1cf246e75e4c9dc4e7b08bab64fbc1e2df983e9eff3c1f11a45a64ab5",
+      "bytes": 3177
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/RpspDetectionPipelineOptions.cs",
+      "sha256": "1bf77e84f481dc0891c9ffa772e4333e57c0e9748f8cf0ee98c9a5147eb4f075",
+      "bytes": 547
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/RpspDetectionPipelineResult.cs",
+      "sha256": "0d7744e3a90c9d8906dae4dc2d8fbc480470e8da3fd2dafb7e4286e47f7f1f96",
+      "bytes": 475
+    },
+    {
+      "path": "src/Rpsp.Core/Pipeline/StockCoreDetectorRunner.cs",
+      "sha256": "944800c51723f52e4ee1ed850bfeb3ef4f257bbc4f3c11b5109be59bc6e9462f",
+      "bytes": 2300
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/CompositeRiskReportFactory.cs",
+      "sha256": "1e58c0e695a34d6a04aada247dc750f8a4f2aa0ceadadbadf197d1132f966c7c",
+      "bytes": 4750
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/DetectorReport.cs",
+      "sha256": "35c081f3b38c33fa97c64ecc39d267cccc4a12f8e96c061ade439319176426b8",
+      "bytes": 1105
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/DetectorReportFormatterOptions.cs",
+      "sha256": "2beb29830ab768412310fe3e27afe441a30ecc6476abab47f1e470a4901b0c1a",
+      "bytes": 147
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/DetectorReportItem.cs",
+      "sha256": "b2fc619134839b4f89c0d0b183760c10db2e03809e3311caf85c5094e13b3c61",
+      "bytes": 100
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/DetectorReportSection.cs",
+      "sha256": "13665c8b7142da63b6e02c6f3d2db839898f515188acadb192e32b79662124c0",
+      "bytes": 371
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/IDetectorReportFormatter.cs",
+      "sha256": "e9a8ad3f9bb54132918c393ae587cec38c042a587098e869c312a58d18a3e4a5",
+      "bytes": 168
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/NeighborGraphReportFactory.cs",
+      "sha256": "aecf3e5d49994bd61039a6845457190cf72c2237b9cd2bc390a322425fed6e57",
+      "bytes": 3685
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/PlainTextDetectorReportFormatter.cs",
+      "sha256": "01a37d7cfcd713b8381692eae74d4018dc22989be72111675f10a76900abe3c0",
+      "bytes": 2516
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/RatDowngradeReportFactory.cs",
+      "sha256": "436899c10725205a45b541a3c99dde1b91323bd5742a3d6e3469534b3bd586e0",
+      "bytes": 3632
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/StationaryHandoverReportFactory.cs",
+      "sha256": "989d17161aafb2e903cfcb546446f07349b762fee74ad7b7e31f874ef235accd",
+      "bytes": 3890
+    },
+    {
+      "path": "src/Rpsp.Core/Reporting/UnknownStrongCellReportFactory.cs",
+      "sha256": "1eadd26f35fb0d001f965c9a5d7b7b98a0aa580780420113f282753f4cedbd86",
+      "bytes": 3838
+    },
+    {
+      "path": "src/Rpsp.Core/Rpsp.Core.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3",
+      "bytes": 36
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/CompositeRiskAssessment.cs",
+      "sha256": "61f85bcacecbfef462ccc7ea05be200738ffbe583357842eca04dffece6d213b",
+      "bytes": 2183
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/CompositeRiskScorer.cs",
+      "sha256": "04e045d0b68741b93d97f420092f6d40348bc8bfbc3f8dff84f806c60e775c65",
+      "bytes": 10874
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/CompositeRiskScorerOptions.cs",
+      "sha256": "075f01f41d437461f14ebd8825705024f22f5914a2894129bd22a049d24bd357",
+      "bytes": 431
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/DetectorRiskContribution.cs",
+      "sha256": "e4f7bdf6f82304323a9ee30b654e9d3ea16913a01b83e73cd2b1ca3acf15ca6f",
+      "bytes": 2993
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/RiskScore.cs",
+      "sha256": "64160f75339479b0c6dfe3639c1302d1aba612190e9d9cfbb6f5a6aeca7f8cdf",
+      "bytes": 700
+    },
+    {
+      "path": "src/Rpsp.Core/Scoring/RiskSeverity.cs",
+      "sha256": "cecc8c04af0129c37a22b19d0af66e080f0910035b2781fd0f7cab152d12fd47",
+      "bytes": 133
+    },
+    {
+      "path": "src/Rpsp.Core/packages.lock.json",
+      "sha256": "a4364d81a6de2707d66fbced18fbbc926c882ab96e1d1aebbb17e871285b9d75",
+      "bytes": 66
+    },
+    {
+      "path": "src/Rpsp.Evaluation/EvaluationResultExporter.cs",
+      "sha256": "b956cc71f7dd2df29512980f66718875fb940acb02387c94e0993e88b6093a14",
+      "bytes": 8336
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentAblationProfiles.cs",
+      "sha256": "10fd9b19a42fa5ab1946a15aa88605720597d87f81bf45d52b1f2e6cb8e5cb24",
+      "bytes": 6428
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentManifest.cs",
+      "sha256": "b201c618513a0b1b588b4376d9dec2ec11627a41e9390e6b48d1542212e7774c",
+      "bytes": 3818
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentResult.cs",
+      "sha256": "6d43134c2b906f66853ababc8b8322527bb958f5217681aec80e3cbf476fb4ab",
+      "bytes": 1063
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentResultExporter.cs",
+      "sha256": "610e48a7385f2c3df419fdb4da8062e0e126ded657766506c6d370dd313d0b02",
+      "bytes": 11848
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentRunner.cs",
+      "sha256": "b9dd3938bb356f4ca61eefce94d48688cba9d4644ab1550a6c893dde99f9b0e2",
+      "bytes": 13017
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Experiments/ExperimentTraceTransformer.cs",
+      "sha256": "e3fd86781d86717f13f18e24467fac2c5efeb92e4724e7535b9ef49d7d954ea3",
+      "bytes": 4486
+    },
+    {
+      "path": "src/Rpsp.Evaluation/InMemoryTraceReplaySource.cs",
+      "sha256": "3e58ac6a39eb0fe0908f38e6bf2ac8426b7d925a8307aafdab633fd764d6d8d8",
+      "bytes": 966
+    },
+    {
+      "path": "src/Rpsp.Evaluation/ReplayClockMode.cs",
+      "sha256": "fcc8c7af71cdd728d525db2ee21e916b81b625bf2458a1330925d450166f9833",
+      "bytes": 110
+    },
+    {
+      "path": "src/Rpsp.Evaluation/ReplayPipelineRunner.cs",
+      "sha256": "36cf982968c7661e93fcc62eaffa0c039846599864269711cd6b9b44306c5f46",
+      "bytes": 7299
+    },
+    {
+      "path": "src/Rpsp.Evaluation/ReplayTrace.cs",
+      "sha256": "dc290c181e83526ff59fbc8a3e81dc9fc4b167656cc13275d37557f289cd9112",
+      "bytes": 314
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Rpsp.Evaluation.csproj",
+      "sha256": "f28d0993c88bbc4dfd6388c515334361c924779a0e3dedfe37c59c03b8a28b98",
+      "bytes": 139
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Scenarios/RadioObservationScenarioBuilder.cs",
+      "sha256": "3f9fbce5cd37338860b5faa0b5228514b25308f06a2f14011b541427f921a2f0",
+      "bytes": 9759
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Scenarios/ReplayScenario.cs",
+      "sha256": "564b4d6fa837c5d1ac933cc4a38b02ea40ac8bfe98199f0f7f6f7deb05987144",
+      "bytes": 1271
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Scenarios/ReplayScenarioCatalog.cs",
+      "sha256": "4deb605e227f1fe4bb22ae6160be72a6fa1f84c6f2fe7cfc378405e2208cdf14",
+      "bytes": 51627
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Scenarios/ReplayScenarioKind.cs",
+      "sha256": "4de29144e9be6b7621638957a04aba1663156536d34feed596ee8d7907aa2b5c",
+      "bytes": 1498
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Stress/SyntheticStressExpectation.cs",
+      "sha256": "2fe2386b692b410dc4e51322853e1f95ed2d51e0e6505a2c4193aa3df6bc127c",
+      "bytes": 640
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Stress/SyntheticStressTrace.cs",
+      "sha256": "4e99aba8f77a06ce3472a4fe747bfb288b0cb1e07d669df5ba249f842737bb6e",
+      "bytes": 439
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Stress/SyntheticStressTraceBuilder.cs",
+      "sha256": "e86c77bff30b7d6af08af6d17dc2d7fef493e33b83797fcfdf364f05a3196af7",
+      "bytes": 6554
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Stress/SyntheticStressTraceCatalog.cs",
+      "sha256": "fe6d391835b8389956cea68d10b1593c3f0d5bc3f7ca1b427334ddc9b4a3c2dd",
+      "bytes": 54335
+    },
+    {
+      "path": "src/Rpsp.Evaluation/Stress/SyntheticStressTraceKind.cs",
+      "sha256": "5f725de485be7187962ab48e494019cddafa5ccda0389ada3a1ca264f840bf22",
+      "bytes": 1090
+    },
+    {
+      "path": "src/Rpsp.Evaluation/TraceFrame.cs",
+      "sha256": "eb6345401bfc085a72e2c035dca87fb02375413f3e608faf9345255743ed3f40",
+      "bytes": 148
+    },
+    {
+      "path": "src/Rpsp.Evaluation/packages.lock.json",
+      "sha256": "f7180a10222618c754cecb6ebedfb7d85439943c76426c4d533018ef01223ba3",
+      "bytes": 130
+    },
+    {
+      "path": "src/Rpsp.Persistence/InMemoryPersistence.cs",
+      "sha256": "3f016753f72dd58cfc51475ba9f769f74cd6d11829efbec4f03928825343724a",
+      "bytes": 12696
+    },
+    {
+      "path": "src/Rpsp.Persistence/InMemoryPipelineIntegration.cs",
+      "sha256": "00762a097d321db4a51afeca96e8e078c4ffd63ab3fe06141dd10f7eebcda502",
+      "bytes": 5955
+    },
+    {
+      "path": "src/Rpsp.Persistence/Rpsp.Persistence.csproj",
+      "sha256": "f28d0993c88bbc4dfd6388c515334361c924779a0e3dedfe37c59c03b8a28b98",
+      "bytes": 139
+    },
+    {
+      "path": "src/Rpsp.Persistence/packages.lock.json",
+      "sha256": "f7180a10222618c754cecb6ebedfb7d85439943c76426c4d533018ef01223ba3",
+      "bytes": 130
+    },
+    {
+      "path": "src/Rpsp.Privacy/CellIdentifierPseudonym.cs",
+      "sha256": "4a89594499f9161577494da671bc7a045517e1b0e6e1d848a4030752d392d0ed",
+      "bytes": 94
+    },
+    {
+      "path": "src/Rpsp.Privacy/CoarseTimeBinner.cs",
+      "sha256": "34c2317c4f9542a50c577d0ab51fa0385e4149498884d5351807a1a5d2d901f4",
+      "bytes": 644
+    },
+    {
+      "path": "src/Rpsp.Privacy/HmacCellIdentifierPseudonymizer.cs",
+      "sha256": "8ceca4927048fc85c1b08f4de432e1ea684339f9d75525821218c76229fe74d5",
+      "bytes": 1519
+    },
+    {
+      "path": "src/Rpsp.Privacy/PrivacyTransformOptions.cs",
+      "sha256": "56f7804efe6a25776908a779721f96d54496f2e6be2b4b42b73897a1ef49ff53",
+      "bytes": 93
+    },
+    {
+      "path": "src/Rpsp.Privacy/Rpsp.Privacy.csproj",
+      "sha256": "f28d0993c88bbc4dfd6388c515334361c924779a0e3dedfe37c59c03b8a28b98",
+      "bytes": 139
+    },
+    {
+      "path": "src/Rpsp.Privacy/packages.lock.json",
+      "sha256": "f7180a10222618c754cecb6ebedfb7d85439943c76426c4d533018ef01223ba3",
+      "bytes": 130
+    },
+    {
+      "path": "tests/Rpsp.Android.Tests/AndroidObservationAdapterTests.cs",
+      "sha256": "014970e14e95bbf21a4a8936bdf0ae0a783f87361e3bca2f4598972ad176d7a3",
+      "bytes": 18913
+    },
+    {
+      "path": "tests/Rpsp.Android.Tests/AndroidTelemetryFixture.cs",
+      "sha256": "110d0e78fffb991a8f5968b95580b25843efce16e4664abc8ecacc6218ead352",
+      "bytes": 9023
+    },
+    {
+      "path": "tests/Rpsp.Android.Tests/FakeAndroidTelemetrySource.cs",
+      "sha256": "d1e12d30bf658ed0903cfc72a5d91aa84b01f489a87603357f03c7eea191c1c0",
+      "bytes": 689
+    },
+    {
+      "path": "tests/Rpsp.Android.Tests/Rpsp.Android.Tests.csproj",
+      "sha256": "f06ddc1ae99c93555102a2f673a06e95333310ca7fd700462006ba16ced39a74",
+      "bytes": 718
+    },
+    {
+      "path": "tests/Rpsp.Android.Tests/packages.lock.json",
+      "sha256": "101948d392cc4993d46cf485b5e19a8813ce162f1aa2946773c3ff2454228497",
+      "bytes": 4095
+    },
+    {
+      "path": "tests/Rpsp.Cli.Tests/ReplayCliTests.cs",
+      "sha256": "4491ab511406149b22100781af025fa3dd36e04f1eb38f0be44546c2d65392f9",
+      "bytes": 8022
+    },
+    {
+      "path": "tests/Rpsp.Cli.Tests/Rpsp.Cli.Tests.csproj",
+      "sha256": "eddb8244b11fbef2a4040602da1fc4abb0c0a7324e9a7f8f22bb3e19afaf29e6",
+      "bytes": 626
+    },
+    {
+      "path": "tests/Rpsp.Cli.Tests/packages.lock.json",
+      "sha256": "0643fdbcd4a830f8912fa5dd704d6b40454d64d251b072a179d3352b878dee0d",
+      "bytes": 4134
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Detectors/NeighborGraphAnomalyDetectorTests.cs",
+      "sha256": "0a1ce56bfb867b17485ab29f9ff588d01ddf2918f7b2d9109217d1d2f92343bc",
+      "bytes": 14344
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Detectors/RatDowngradeRiskDetectorTests.cs",
+      "sha256": "d7b2b209e607294fc7ac2ef2c8d11ed1e9fab51ab8e49c23ed6b8aacbd90103c",
+      "bytes": 14215
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Detectors/StationaryHandoverAnomalyDetectorTests.cs",
+      "sha256": "86afd9364b9896579c8ae59648e72d135480ce27831d5d432cacac4b315348c7",
+      "bytes": 7594
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Detectors/UnknownStrongCellDetectorTests.cs",
+      "sha256": "7e0fc9582300cbffd8c9d11c46ce542999564b27d9b6ca6a3a90506a11b6125d",
+      "bytes": 13857
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Pipeline/RpspDetectionPipelineTests.cs",
+      "sha256": "b3fadcb6f5d06873e0bc973a769aa75ac98ad7aaa3c72e8456c3e55af524fa45",
+      "bytes": 11163
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/PublicDomainModelSafetyTests.cs",
+      "sha256": "70a72ba89f56399ed676d3faf3c9dfb60ab3a9fe3e4d7d0fe38b8083530755f9",
+      "bytes": 1041
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/RadioObservationTests.cs",
+      "sha256": "3f19a498eea2f9c74f749e4e0d9a9cc9b4b4108b9a79514ded8b3fdf1d86d57c",
+      "bytes": 1243
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/CompositeRiskReportFactoryTests.cs",
+      "sha256": "21229c639128d9e5a785b5f94e8ff16381c56c9c8ecfb01fba2f9c16452b196e",
+      "bytes": 5773
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/NeighborGraphReportFactoryTests.cs",
+      "sha256": "dc2e9a3ab2f3354bff86c83621385dae8596989e85df7767c43d1289ced2fac8",
+      "bytes": 7623
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/PlainTextDetectorReportFormatterTests.cs",
+      "sha256": "60a2fd456cdd7eddba6ace401e67ece34da1ce3377657216a875782ac89c8754",
+      "bytes": 3666
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/RatDowngradeReportFactoryTests.cs",
+      "sha256": "d1db38324ed5d4294b453071d24de339161cfb438fb1dc1a1f17e217371ca918",
+      "bytes": 8664
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/StationaryHandoverReportFactoryTests.cs",
+      "sha256": "e2d6b579e98d97098c4bea6d727c9f7b41932e962f2e8d62a7415d83aeba9e8b",
+      "bytes": 2197
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/StationaryHandoverReportTestData.cs",
+      "sha256": "45df5da054bc6995f4ac092335c8b2516b64f7c39b11318ee55f464561395cc7",
+      "bytes": 3854
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Reporting/UnknownStrongCellReportFactoryTests.cs",
+      "sha256": "7205bb10f3f8bd67bdfcf97679f2b5c13fde02e0b6ea0e4e7fb49e6d0cecb431",
+      "bytes": 7699
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/RiskScoreTests.cs",
+      "sha256": "89ea4b0c61d3a60f8d74aed98a122f64de6979e331c1f76f0b411e81198c81dd",
+      "bytes": 782
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Rpsp.Core.Tests.csproj",
+      "sha256": "1c40b7432e71ad4630f368922b944db9bce956430ee7eb2624aaa8077d0bca43",
+      "bytes": 628
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/Scoring/CompositeRiskScorerTests.cs",
+      "sha256": "c2f6fc04ac0fca68cf4edd56a3df792712fe09911f0b5fdbf5761513e4859e96",
+      "bytes": 8418
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/WarningDecisionTests.cs",
+      "sha256": "3810663911ac99c9c4c650fb89af6253d6075074ec1a31e95d3be04d2ad78120",
+      "bytes": 533
+    },
+    {
+      "path": "tests/Rpsp.Core.Tests/packages.lock.json",
+      "sha256": "d06db6fbee4bb576e67e896bab75e3cf3ce2ca0e574d4e19d3fc16f4ee7c3953",
+      "bytes": 3818
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Calibration/ReplayCalibrationBaselineTests.cs",
+      "sha256": "9b3d410151cb31f5a4faad6122570282503f7fa6e3cbe949580e9cb0ae91d102",
+      "bytes": 13859
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/CompositeRiskReplayTests.cs",
+      "sha256": "eeca98e39f3c34229e135eff58cf8013aeb4fb6bd5f7dd7966502f2565c5965a",
+      "bytes": 2487
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/EvaluationResultExporterTests.cs",
+      "sha256": "e0e65f0442c559fc657af02e29bac48e32edfa3463aeafd648601bd7b305afbc",
+      "bytes": 3271
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Experiments/ExperimentManifestTests.cs",
+      "sha256": "b32658620ca2862f92c71267ab72952c8e618cb460fe9aa8fdac432f651fe70f",
+      "bytes": 1142
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Experiments/ExperimentRunnerTests.cs",
+      "sha256": "08b9a7e790d53acabaea9d7ba74e3db4e37516d521b0064f3916decced184bf1",
+      "bytes": 4428
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Experiments/ExperimentTraceTransformerTests.cs",
+      "sha256": "c0b140e1b304da2df634a919873ab184cda68567f6057da037bef97321b170da",
+      "bytes": 1825
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/GoldenReportSnapshotTests.cs",
+      "sha256": "d282c366b69c0ac8272581c49739196fd92862e23b181e5d819023bcfb8ce7d4",
+      "bytes": 3998
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/InMemoryTraceReplaySourceTests.cs",
+      "sha256": "bca74e180cf3dbbdb0159373b2ea5fea51a262f4dd85a51e3477e8102743d2b2",
+      "bytes": 3251
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/NeighborGraphReplayTests.cs",
+      "sha256": "eaa201b0072f72e3f0c3ec4a1f84912b26836e8d3a4d2ef2c916983dcee55c40",
+      "bytes": 3937
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/ReplayPipelineRunnerTests.cs",
+      "sha256": "226f1efcc0a8cd14ed81a72a0292d7ac3c0bf29d2285287fd7160fcb9e99eaf2",
+      "bytes": 4414
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/ReplayScenarioCatalogTests.cs",
+      "sha256": "4ba145b3a9e54523a838e2b127abc930e9962c4423e67f3cc81135bf86fb5ff7",
+      "bytes": 6597
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Reporting/RatDowngradeReplayReportTests.cs",
+      "sha256": "184a1ca71a1e7891cb0840d72e418c94a3ab3d6a0a02dad459fb529630a92080",
+      "bytes": 4352
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Reporting/ReplayScenarioReportTests.cs",
+      "sha256": "1711b11b022cd07a9ca0fb514d42ab4b02986a90d94c76e6ee17c00312631306",
+      "bytes": 4870
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Rpsp.Evaluation.Tests.csproj",
+      "sha256": "bafe615ad1bae7e1b21f50f56239eda292dc63db875a298c6c528bd6071573b3",
+      "bytes": 640
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-all-detectors-suspicious-report.txt",
+      "sha256": "5d5f96ed632b323ceb05cf46134eca2c2a61be8282e5804f01bb4e6e6fb8545a",
+      "bytes": 1606
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-combined-multi-detector-report.txt",
+      "sha256": "5781a5c720416525f6f55b2f6ef3ea22b3c0bd493ef4dbf0e9fa72fd5749878c",
+      "bytes": 1503
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-combined-suspicious-report.txt",
+      "sha256": "66c3749e70c38bda58aa5ba87a25c2bc96a2e8227863e3e77f857ba7e3fab574",
+      "bytes": 1396
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-high-risk-report.txt",
+      "sha256": "1c2aad08e28b92ca53cf3c0cb8f3b26f995ea59f3bce0c362c1ecd36d89889e0",
+      "bytes": 1414
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-low-risk-report.txt",
+      "sha256": "710c934ad33a7c9cee5290ff16883fba876b11353fee954088afc0cddc76471a",
+      "bytes": 1359
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-neighbor-graph-report.txt",
+      "sha256": "1a48a2b6ff2333dd9c9baa5511e559cbfa2800dd664966f4214e18888ea29f3f",
+      "bytes": 1278
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/composite-unknown-strong-cell-report.txt",
+      "sha256": "d75040be8af11b38bdbe4674f6453478eb91f4ea4e41496d8726a0e6551198aa",
+      "bytes": 1277
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/neighbor-moving-drift-suppressed-report.txt",
+      "sha256": "7f13f659277319cea9fb3fed409f9d92e984d1fa252d2e7a84c0a4c8135e3292",
+      "bytes": 1530
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/neighbor-repeated-severe-drift-report.txt",
+      "sha256": "f0ddcc199850f371d38d321c8c4526e9254db9e3a851a91d1ad0842db1025488",
+      "bytes": 1587
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/neighbor-small-drift-report.txt",
+      "sha256": "aab7ebff07cac2ede791dc06e15c35c7b0804e1af9562321a1645a742a38abbb",
+      "bytes": 1515
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/neighbor-stable-known-graph-report.txt",
+      "sha256": "8eb97790aa641a4e5b4e7c4b16297ceb32ff6be455fc9e74ff96a240015cf23b",
+      "bytes": 1515
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/neighbor-stationary-large-drift-report.txt",
+      "sha256": "2233bc014a3bfa0840c872204f78e26eb590f6c2c4eefd9706f4178d833abb48",
+      "bytes": 1587
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/rat-stable-lte-report.txt",
+      "sha256": "5dd0c2b620ec6864f435405449f2118ed9b7842cc846b79b45167a7c24f69f6d",
+      "bytes": 1395
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/rat-suspicious-lte-to-umts-report.txt",
+      "sha256": "7da426eeca4686342d13bb502934addbf4fc6880827d8bfbffc748596c198311",
+      "bytes": 1420
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/stationary-stable-serving-cell-report.txt",
+      "sha256": "3ffcba1c379a7fd03aada08b06a2351c179b4b00198a68809de05b422d91a2a9",
+      "bytes": 1118
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/stationary-suspicious-churn-report.txt",
+      "sha256": "2f0b770e95671805c6e2337b9de2ae7a8c044325d97768bc9861c1099fd975dc",
+      "bytes": 1199
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/unknown-known-trusted-cells-report.txt",
+      "sha256": "819d48edf8646f3c4edf7f2f67c25da4889756df85d0070c0a1517d6bb5d8071",
+      "bytes": 1608
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/unknown-moving-strong-cell-suppressed-report.txt",
+      "sha256": "900a3dbe6d751ebf1419999c5dfd0d6455d992adec1009f70d37aceea23c6a1a",
+      "bytes": 1628
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/unknown-repeated-very-strong-serving-cell-report.txt",
+      "sha256": "cf81fa7c3fbebc96a2bd00aa263f9e90354fdc92ced4f7171724957f241bff9f",
+      "bytes": 1690
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/unknown-strong-serving-cell-report.txt",
+      "sha256": "ab15ce4b024ebcd9cdbe115f153f2e84b22319aff74ba3a5792576138ec50fc5",
+      "bytes": 1693
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Snapshots/unknown-weak-neighbor-cell-report.txt",
+      "sha256": "134c2c05b6bce66cf21ee0b4a285ddb4f63ff676a2504c5fa8363cf8d13c79cf",
+      "bytes": 1617
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/StationaryHandoverReplayTests.cs",
+      "sha256": "e99f02d1868c3661df55dcb1b872481fac9201179d279a5bdfc85590ba2c5373",
+      "bytes": 2176
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Stress/CompositeStressTraceTests.cs",
+      "sha256": "e55dd24860217767cd8e9f75798ce3e920782ada2e001c8cc72bde64e365ce36",
+      "bytes": 3712
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Stress/P2SyntheticStressTraceTests.cs",
+      "sha256": "7bda3cb181ccaa0d90173cba14c4f73ac906f56479b4687d2fddc9b649303fef",
+      "bytes": 6535
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Stress/StressTraceTestSupport.cs",
+      "sha256": "0dac9152e155cfd9f3d385419ad05f025faaed2de71d2d0b30e5948d0c158c1d",
+      "bytes": 2935
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Stress/SyntheticStressTraceCatalogTests.cs",
+      "sha256": "1652e7dcd85d87d6424a0336876c467446b5e1636ec2454703bd133f4fe8d282",
+      "bytes": 3397
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Stress/SyntheticStressTraceDetectorTests.cs",
+      "sha256": "c373694ab2919637ebd2ef9dda541937ce9884eb76d90183fd760e5f4c45b47a",
+      "bytes": 10371
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Support/ReportSnapshotFactory.cs",
+      "sha256": "1f6ebd556325a1371e950244963f096e8004868984baa07dd3cee1022ba4af84",
+      "bytes": 14988
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/Support/SnapshotAssert.cs",
+      "sha256": "dddeea5015f1a6a4d2c1ae05e42faa50ff0f2ccfc5e2f8762e0596e0cd7eecae",
+      "bytes": 2696
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/UnknownStrongCellReplayTests.cs",
+      "sha256": "31007fa35277180f5fda7d3b15b02b83324bce5a37fcfdb2ed5d4bf4058e43d9",
+      "bytes": 3986
+    },
+    {
+      "path": "tests/Rpsp.Evaluation.Tests/packages.lock.json",
+      "sha256": "6e60208e1568eddd495e1d8593304e47017496edb61fd097d616452221ead9ac",
+      "bytes": 3958
+    },
+    {
+      "path": "tests/Rpsp.Persistence.Tests/InMemoryPersistenceTests.cs",
+      "sha256": "49898c763cedfc8eaaf085593727ef3198a01893990c53dd3f27475138c12bc0",
+      "bytes": 14891
+    },
+    {
+      "path": "tests/Rpsp.Persistence.Tests/InMemoryPipelineIntegrationTests.cs",
+      "sha256": "0685a24c44dfcf32bf297cec1428ef2d42fdd5df670a3d289725b6c2c9375eac",
+      "bytes": 10261
+    },
+    {
+      "path": "tests/Rpsp.Persistence.Tests/Rpsp.Persistence.Tests.csproj",
+      "sha256": "8e066f75e0d2e33da9c152570b88d61433bfa6c057950ae0e4343e8280c81c97",
+      "bytes": 642
+    },
+    {
+      "path": "tests/Rpsp.Persistence.Tests/packages.lock.json",
+      "sha256": "f972632096eec2b68908b6b7f2c7f41ee04d6f483fc5414e5bbfbd9fd8d7681b",
+      "bytes": 3959
+    },
+    {
+      "path": "tests/Rpsp.Privacy.Tests/CoarseTimeBinnerTests.cs",
+      "sha256": "53b302985f8adebea10c7bbb80fabf6a9388df84f1e4737e3d40e0c8d8a7ebe0",
+      "bytes": 494
+    },
+    {
+      "path": "tests/Rpsp.Privacy.Tests/HmacCellIdentifierPseudonymizerTests.cs",
+      "sha256": "9513a252b5b75a753ed9ea54c7df4463bcb803b5cd370f6023af13fc13448e50",
+      "bytes": 1823
+    },
+    {
+      "path": "tests/Rpsp.Privacy.Tests/Rpsp.Privacy.Tests.csproj",
+      "sha256": "aafb30fa85ab51ad8a9073f2e7c995be4bc64941c1bbb95348c0f3c207d64c95",
+      "bytes": 634
+    },
+    {
+      "path": "tests/Rpsp.Privacy.Tests/packages.lock.json",
+      "sha256": "3c672e9fe04ea3dcafb3d1cec83ebfb08827747614cd9d1c2d8d4be87695050a",
+      "bytes": 3955
+    },
+    {
+      "path": "tools/article/analyze_experiment_results.py",
+      "sha256": "dd4fb97e28e330851c13ffdc1b73be5a404db3503def623d9b1cbabc198f2008",
+      "bytes": 8655
+    }
+  ]
+}

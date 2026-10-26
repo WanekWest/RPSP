@@ -1,0 +1,28 @@
+RPSP detector report
+Detector: Composite risk assessment
+Decision: Suppressed
+Risk score: 0.000
+Severity: None
+Warning level: None
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Composite risk assessment was suppressed because all detector contributions were suppressed.
+
+Composite Evidence:
+- TotalDetectorCount: Total detector count: 2.
+- ActiveContributionCount: Active contribution count: 0.
+- SuppressedContributionCount: Suppressed contribution count: 2.
+- HighestContributingDetector: Highest contributing detector: none.
+- BaseScore: Composite base score: 0.000.
+- CorrelationBoost: Composite correlation boost: 0.000.
+- FinalScore: Composite final score: 0.000.
+- DetectorContributionSummary: Report contribution count: 2.
+
+Detector Contributions:
+- RatDowngradeRiskDetector: score=0.000; severity=None; warning=None; suppressed=True; reason=suppressed:no-legacy-downgrade.
+- StationaryHandoverAnomalyDetector: score=0.000; severity=None; warning=None; suppressed=True; reason=suppressed:no-serving-cell-churn.
+
+Limitations:
+- Bounded claim: This report is not proof of an attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report does not perform attribution.

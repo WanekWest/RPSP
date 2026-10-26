@@ -1,0 +1,24 @@
+RPSP detector report
+Detector: StationaryHandoverAnomalyDetector
+Decision: Suspicious
+Risk score: 0.780
+Severity: Medium
+Warning level: Caution
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Stationary serving-cell churn produced a radio-access anomaly compatible with suspicious reselection/handover behavior; this is not an attribution or proof of interception.
+
+Evidence:
+- ObservationCount: Observation count: 5.
+- WindowDuration: Window duration seconds: 120.0.
+- MotionStateSummary: Stationary-like: 5; benign mobility: 0; unknown: 0.
+- DistinctServingCellCount: Distinct serving cell count: 3.
+- ServingCellTransitionCount: Serving cell transition count: 4.
+- TransitionsPerMinute: Serving cell transitions per minute: 2.00.
+- RepeatedChurnPattern: Repeated churn pattern detected: True.
+- SuppressionReason: Suppression reason: none.
+
+Limitations:
+- Bounded claim: This report is not proof of an attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report is not an attribution or proof of interception.

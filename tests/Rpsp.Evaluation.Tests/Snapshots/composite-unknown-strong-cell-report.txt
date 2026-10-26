@@ -1,0 +1,27 @@
+RPSP detector report
+Detector: Composite risk assessment
+Decision: Suspicious
+Risk score: 0.780
+Severity: Medium
+Warning level: Caution
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Combined anomaly indicators produced a composite radio-access anomaly score of 0.780; this is not proof of interception and not attribution.
+
+Composite Evidence:
+- TotalDetectorCount: Total detector count: 1.
+- ActiveContributionCount: Active contribution count: 1.
+- SuppressedContributionCount: Suppressed contribution count: 0.
+- HighestContributingDetector: Highest contributing detector: UnknownStrongCellDetector.
+- BaseScore: Composite base score: 0.780.
+- CorrelationBoost: Composite correlation boost: 0.000.
+- FinalScore: Composite final score: 0.780.
+- DetectorContributionSummary: Report contribution count: 1.
+
+Detector Contributions:
+- UnknownStrongCellDetector: score=0.780; severity=Medium; warning=Caution; suppressed=False; reason=none.
+
+Limitations:
+- Bounded claim: This report is not proof of an attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report does not perform attribution.

@@ -1,0 +1,30 @@
+RPSP detector report
+Detector: Composite risk assessment
+Decision: High risk
+Risk score: 1.000
+Severity: High
+Warning level: Warning
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Combined anomaly indicators produced a composite radio-access anomaly score of 1.000; this is not proof of interception and not attribution.
+
+Composite Evidence:
+- TotalDetectorCount: Total detector count: 4.
+- ActiveContributionCount: Active contribution count: 4.
+- SuppressedContributionCount: Suppressed contribution count: 0.
+- HighestContributingDetector: Highest contributing detector: NeighborGraphAnomalyDetector.
+- BaseScore: Composite base score: 0.800.
+- CorrelationBoost: Composite correlation boost: 0.250.
+- FinalScore: Composite final score: 1.000.
+- DetectorContributionSummary: Report contribution count: 4.
+
+Detector Contributions:
+- NeighborGraphAnomalyDetector: score=0.800; severity=High; warning=Warning; suppressed=False; reason=none.
+- RatDowngradeRiskDetector: score=0.650; severity=Medium; warning=Caution; suppressed=False; reason=none.
+- StationaryHandoverAnomalyDetector: score=0.780; severity=Medium; warning=Caution; suppressed=False; reason=none.
+- UnknownStrongCellDetector: score=0.780; severity=Medium; warning=Caution; suppressed=False; reason=none.
+
+Limitations:
+- Bounded claim: This report is not proof of an attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report does not perform attribution.

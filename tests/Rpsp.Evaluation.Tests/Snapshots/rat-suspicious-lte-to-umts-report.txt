@@ -1,0 +1,29 @@
+RPSP detector report
+Detector: RatDowngradeRiskDetector
+Decision: Suspicious
+Risk score: 0.650
+Severity: Medium
+Warning level: Caution
+Observation window: 2026-05-15T12:00:00.0000000+00:00 to 2026-05-15T12:02:00.0000000+00:00
+Summary: Suspicious RAT downgrade pattern produced a radio-access anomaly; this is not proof of interception.
+
+Evidence:
+- ObservationCount: Observation count: 5.
+- WindowDuration: Window duration seconds: 120.0.
+- MotionStateSummary: Stationary-like: 5; benign mobility: 0; unknown: 0.
+- ObservedRatSequenceSummary: Observed RAT sequence: Lte -> Umts.
+- ModernRatHistoryCount: Modern RAT history count before first legacy RAT: 3.
+- LegacyRatObservationCount: Legacy RAT observation count: 2.
+- DowngradeTransitionCount: Legacy downgrade transition count: 1.
+- DowngradesPerMinute: Legacy downgrades per minute: 0.50.
+- LegacyDwellDuration: Legacy RAT dwell duration seconds: 30.0.
+- ServiceFlapCount: Service availability flap count: 0.
+- SuppressionReason: Suppression reason: none.
+- LegacyDowngradeDetected: Legacy downgrade detected: True.
+- NoServiceGapDetected: Pattern includes NoService gap: False.
+
+Limitations:
+- Bounded claim: This report is not proof of an attack.
+- Protocol visibility: This report does not inspect privileged protocol semantics.
+- Interception scope: This report does not detect lawful/core interception.
+- Attribution: This report does not provide attribution.

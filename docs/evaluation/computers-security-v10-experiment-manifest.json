@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "experimentId": "rpsp-computers-security-v10-synthetic-sensitivity",
+  "replicates": 30,
+  "baseSeed": 20260905,
+  "boundaryScales": [
+    0.75,
+    1.0,
+    1.25
+  ],
+  "ablationProfiles": [
+    "full",
+    "stationary-only",
+    "rat-only",
+    "unknown-cell-only",
+    "neighbor-graph-only",
+    "no-motion-suppression",
+    "reduced-evidence-gates",
+    "no-composite-boost"
+  ],
+  "maximumSignalNoiseDb": 1.5,
+  "maximumTimingJitterSeconds": 2.0,
+  "includeReplayScenarios": true,
+  "includeStressTraces": true,
+  "captureTiming": false
+}
